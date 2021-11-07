@@ -1,0 +1,135 @@
+:root {
+   --info: #3e97ff;
+   --warning: #ffc31f;
+   --success: #26be0a;
+}
+.text-warning {
+   color: var(--warning);
+}
+.text-success {
+   color: var(--success);
+}
+.text-info {
+   color: var(--info);
+}
+.warning {
+   background-color: var(--warning);
+}
+.success {
+   background-color: var(--success);
+}
+.info {
+   background-color: var(--info);
+}
+.container {
+   box-sizing: border-box;
+   margin-top: 25px;
+}
+body {
+   margin: 0px;
+   font-family: 'Cabin', sans-serif;
+}
+.header {
+   box-sizing: border-box;
+   display: flex;
+   box-shadow: 0 7px 15px #adadad;
+}
+.logo {
+   flex: 6;
+}
+.logo img {
+   width: 400px;
+   padding: 20px;
+}
+.menu {
+   flex: 1;
+   align-self: center;
+}
+.menu i {
+   color: #adadad;
+   font-size: 110px;
+   font-weight: 700;
+}
+.main-header {
+   display: flex;
+   flex-direction: column;
+}
+.banner {
+   box-sizing: border-box;
+   display: flex;
+   color: #686868;
+   font-size: 40px;
+}
+.banner .price {
+   padding-left: 30px;
+   flex: 1;
+}
+.banner .price img {
+   height: 120px;
+   width: 270px;
+}
+.banner .content {
+   padding: 5px 15px 0px 45px;
+   align-self: center;
+   flex: 4;
+}
+.banner .content p {
+   margin-block-start: 0em;
+}
+a {
+   color: #ff5d27;
+   font-weight: bold;
+}
+.stats {
+   display: flex;
+   flex-direction: column;
+   background-color: #eeeeee;
+}
+.stats .heading {
+   padding: 30px 0px;
+   font-weight: 600;
+   font-size: 40px;
+   color: #333333;
+   text-align: center;
+}
+.stats .stats-card-group {
+   margin: 20px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.stats .stats-card {
+   margin: 10px;
+   border-radius: 30px;
+   background: #ffffff;
+   flex: 1;
+}
+.stats .stats-card h1 {
+   margin-block-start: 0.1em;
+   margin-block-end: 0.1em;
+   text-align: center;
+   font-size: 80px;
+   font-weight: bolder;
+}
+.stats .stats-card h1 > sup {
+   font-size: 30px;
+   margin-left: 10px;
+   font-weight: 100;
+   color: #cccccc;
+}
+.stats .stats-card p {
+   margin-block-start: 0.1em;
+   margin-block-end: 0.5em;
+   text-align: center;
+   font-size: 35px;
+   font-weight: bolder;
+   color: #767474;
+}
+.stats .stats-bar {
+   display: flex;
+   margin: 20px;
+   justify-content: center;
+}
+.bar {
+   flex: 1;
+   height: 30px;
+}
