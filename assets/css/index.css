@@ -1,0 +1,327 @@
+:root {
+   --info: #3e97ff;
+   --warning: #ffc31f;
+   --success: #26be0a;
+   --danger: #ff5d27;
+   --white: #ffffff;
+   --primary: #005999;
+   --secondary: #eeeeee;
+}
+.text-primary {
+   color: var(--primary);
+}
+.text-secondary {
+   color: var(--secondary);
+}
+.text-warning {
+   color: var(--warning);
+}
+.text-success {
+   color: var(--success);
+}
+.text-info {
+   color: var(--info);
+}
+.text-danger {
+   color: var(--danger);
+}
+.primary {
+   background-color: var(--primary);
+}
+.secondary {
+   background-color: var(--secondary);
+}
+.warning {
+   background-color: var(--warning);
+}
+.success {
+   background-color: var(--success);
+}
+.info {
+   background-color: var(--info);
+}
+.danger {
+   background-color: var(--danger);
+}
+.white {
+   background-color: var(--info);
+}
+.container {
+   box-sizing: border-box;
+   margin-top: 25px;
+}
+body {
+   margin: 0px;
+   font-family: 'Work Sans', sans-serif;
+}
+.header {
+   box-sizing: border-box;
+   display: flex;
+   box-shadow: 0 7px 15px #adadad;
+}
+.logo {
+   flex: 6;
+}
+.logo img {
+   width: 400px;
+   padding: 20px;
+}
+.menu {
+   flex: 1;
+   align-self: center;
+}
+.menu i {
+   color: #adadad;
+   font-size: 110px;
+   font-weight: 900;
+}
+.main-header {
+   display: flex;
+   flex-direction: column;
+}
+.banner {
+   box-sizing: border-box;
+   display: flex;
+   color: #686868;
+   font-size: 33px;
+}
+.banner .price {
+   padding-left: 30px;
+   flex: 1;
+}
+.banner .price img {
+   height: 120px;
+   width: 270px;
+}
+.banner .content {
+   padding: 5px 15px 0px 45px;
+   align-self: center;
+   flex: 4;
+}
+.banner .content p {
+   margin-block-start: 0em;
+}
+a {
+   color: #ff5d27;
+   font-weight: bold;
+}
+.stats {
+   display: flex;
+   flex-direction: column;
+   background-color: #eeeeee;
+   padding-bottom: 20px;
+}
+.stats .heading {
+   padding: 30px 0px;
+   font-weight: 600;
+   font-size: 40px;
+   color: #333333;
+   text-align: center;
+}
+.stats .stats-card-group {
+   margin: 20px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.stats .stats-card {
+   margin: 10px;
+   border-radius: 30px;
+   background: #ffffff;
+   flex: 1;
+}
+.stats .stats-card h1 {
+   margin-block-start: 0.1em;
+   margin-block-end: 0.1em;
+   text-align: center;
+   font-size: 80px;
+   font-weight: bolder;
+}
+.stats .stats-card h1 > sup {
+   font-size: 30px;
+   margin-left: 10px;
+   font-weight: 100;
+   color: #817f7f;
+}
+.stats .stats-card p {
+   margin-block-start: 0.1em;
+   margin-block-end: 0.5em;
+   text-align: center;
+   font-size: 35px;
+   font-weight: 600;
+   color: #767474;
+}
+.stats .stats-bar {
+   display: flex;
+   margin: 20px 30px;
+   justify-content: center;
+}
+.bar {
+   flex: 1;
+   height: 30px;
+}
+.stats .button {
+   margin: 20px 30px;
+}
+button {
+   border: none;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+}
+.stats .button button {
+   width: 100%;
+   background-color: var(--white);
+   color: var(--danger);
+   padding: 30px 32px;
+   font-size: 46px;
+   font-weight: 900;
+   border-radius: 20px;
+}
+.filter {
+   display: flex;
+   justify-content: space-between;
+   margin: 40px;
+}
+.filter .filter-link {
+   background-color: #eeeeee;
+   font-size: 80px;
+   box-sizing: border-box;
+   border-radius: 360px;
+   flex: 1;
+}
+.filter .filter-link i {
+   margin: 20px;
+   color: #555555;
+}
+.filter .filter-title {
+   flex: 3;
+   color: #aaaaaa;
+   font-size: 40px;
+   padding: 20px 30px;
+}
+.filter .filter-title p {
+   margin-block-start: 0em;
+   margin-block-end: 0em;
+   flex-grow: 1;
+   color: #aaaaaa;
+   font-size: 35px;
+}
+.filter .filter-select {
+   display: flex;
+   background-color: #eeeeee;
+   padding: 0px 50px;
+   box-sizing: border-box;
+   border-radius: 30px;
+   flex: 10;
+   color: #333333;
+   font-size: 40px;
+}
+.filter-select-text {
+   flex: 10;
+}
+.filter-select-icon {
+   box-sizing: border-box;
+   padding: 40px 0px;
+   flex: 1;
+}
+.separator {
+   padding: 0px 40px;
+}
+.separator hr {
+   height: 5px;
+   background-color: #aaaaaa;
+   color: #aaaaaa;
+   border-width: 0;
+}
+.car {
+   display: flex;
+   flex-direction: column;
+   margin: 40px 40px;
+}
+.car-image {
+   flex: 1;
+}
+.car-image img {
+   width: 100%;
+}
+.car-detail {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+}
+.car-detail .title {
+   flex: 1;
+}
+.car-detail .title p {
+   font-size: 70px;
+   margin-block-start: 1em;
+   margin-block-end: 0em;
+}
+.car-detail .detail {
+   flex: 1;
+   display: flex;
+   flex-direction: row;
+}
+.car-detail .detail .content {
+   flex: 2;
+   margin: 50px 0px;
+}
+.car-detail .detail .content p {
+   font-size: 42px;
+   margin-block-start: 0.2em;
+   margin-block-end: 0em;
+}
+.car-detail .detail .button {
+   flex: 1;
+   align-self: center;
+}
+.car-detail .detail .button button {
+   width: 100%;
+   border: 1px solid var(--primary);
+   background-color: var(--white);
+   color: var(--primary);
+   padding: 70px 32px;
+   font-size: 26px;
+   font-weight: 900;
+   border-radius: 0px;
+}
+.car-detail .footer {
+   flex: 1;
+   display: flex;
+}
+.car-detail .footer .price {
+   flex: 2;
+   padding: 10px;
+}
+.car-detail .footer .price h1 {
+   font-size: 90px;
+   margin-block-start: 0.2em;
+   margin-block-end: 0em;
+}
+.car-detail .footer .content {
+   flex: 6;
+   align-self: center;
+}
+.car-detail .footer .content p {
+   margin-block-start: 1em;
+   margin-block-end: 0em;
+   font-size: 39px;
+}
+.car-detail .footer .icon {
+   margin-block-start: 0.6em;
+   margin-block-end: 0em;
+   flex: 1;
+   align-self: center;
+   font-size: 70px;
+   text-align: right;
+   font-weight: 900;
+   color: #aaaaaa;
+}
+.car-detail .car-bar {
+   margin: 20px 0px;
+   display: flex;
+   justify-content: center;
+}
+.ml-10 {
+   margin-left: 10px;
+}
